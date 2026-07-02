@@ -620,7 +620,10 @@
       <div class="confid">CONFIDENTIAL &nbsp;—&nbsp; Reviewed within 24 hours</div>
     </div>
     <div>
-      <form id="caseForm">
+      <form
+    id="caseForm"
+    action="https://formspree.io/f/mjgqpgeg"
+    method="POST">
         <div class="row2">
           <div class="field">
             <label for="name">Full name</label>
@@ -660,10 +663,7 @@
 </footer>
 
 <script>
-  document.getElementById('caseForm').addEventListener('submit', function(e){
-    e.preventDefault();
-    document.getElementById('confirmMsg').classList.add('show');
-  });
+  
 </script>
 
 </body>
